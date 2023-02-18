@@ -462,56 +462,8 @@
   },
   {
     "nome": "haven",
-    "link_capa": "/pixels/Haven/telaDeCarregamento.png",
-    "lista_de_pixeis": [
-      {
-        "nome": "pixels/haven/Bomb_A/pixel_1",
-        "capa": "pixels/Split/Bomb_A/pixel_1/resultado.png",
-        "localização": "bomb-a",
-        "passo_a_passo": [
-          {
-            "link": "pixels/Split/Bomb_A/pixel_1/pixel1A-split.gif",
-            "texto": "MUDAR"
-          },
-          {
-            "link": "pixels/Split/Bomb_A/pixel_2/local.png",
-            "texto": ""
-          },
-          {
-            "link": "pixels/Split/Bomb_A/pixel_2/pixel.png",
-            "texto": ""
-          },
-          {
-            "link": "pixels/Split/Bomb_A/pixel_2/resultado.png",
-            "texto": ""
-          }
-        ]
-      },
-      {
-        "nome": "pixels/haven/Bomb_A/pixel_2",
-        "capa": "pixels/Split/Bomb_A/pixel_2/resultado.png",
-        "localização": "bomb-a",
-        "passo_a_passo": [
-          {
-            "link": "pixels/Split/Bomb_A/pixel_2/pixel1A-split.gif",
-            "texto": "MUDAR"
-          },
-          {
-            "link": "pixels/Split/Bomb_A/pixel_2/local.png",
-            "texto": ""
-          },
-          {
-            "link": "pixels/Split/Bomb_A/pixel_2/pixel.png",
-            "texto": ""
-          },
-          {
-            "link": "pixels/Split/Bomb_A/pixel_2/resultado.png",
-            "texto": ""
-          }
-        ]
-      },
-      {}
-    ]
+    "link_capa": "pixels/Haven/telaDeCarregamento__2_.png",
+    "lista_de_pixeis": []
   },
   {
     "nome": "icebox",
@@ -521,7 +473,175 @@
   {
     "nome": "lotus",
     "link_capa": "pixels/Lotus/telaDeCarregamento.png",
-    "lista_de_pixeis": []
+    "lista_de_pixeis": [
+      {
+        "nome": "lotus-bombA-pixel1",
+        "capa": "pixels/Lotus/Bomb-A/pixel_1/pixel1-resultado__2_.png",
+        "localização": "bomb-a",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-lotus.gif",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-1.1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-2.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "lotus-bombA-pixel2",
+        "capa": "pixels/Lotus/Bomb-A/pixel_2/pixel2-resultado__2_.png",
+        "localização": "bomb-a",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_2/pixel2-A.gif",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_2/pixel2-1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_2/pixel2-1.1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_2/pixel2-2.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_2/pixel2-resultado__2_.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "lotus-bombA-pixel3",
+        "capa": "pixels/Lotus/Bomb-A/pixel_3/jeito_1/pixel3-resultado__2_.png",
+        "localização": "bomb-a",
+        "passo_a_passo": [
+          [
+            {
+              "link": "pixels/Lotus/Bomb-A/pixel_3/pixel3-A.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Lotus/Bomb-A/pixel_3/jeito_1/pixel3-1.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Lotus/Bomb-A/pixel_3/jeito_1/pixel3-1.1.png",
+              "texto": "alinhe-se com esse galho"
+            },
+            {
+              "link": "pixels/Lotus/Bomb-A/pixel_3/jeito_1/pixel3-2.png",
+              "texto": "Quando o dedo da Viper estiver o mais alto possível, alinhe ele com essa quina e jogue o veneno"
+            },
+            {
+              "link": "pixels/Lotus/Bomb-A/pixel_3/jeito_1/pixel3-resultado.png",
+              "texto": ""
+            }
+          ],
+
+          [
+            {
+              "link": "pixels/Lotus/Bomb-A/pixel_3/jeito_2/pixel4-1.png",
+              "texto": "encoste no centro dessa pilastra"
+            },
+            {
+              "link": "pixels/Lotus/Bomb-A/pixel_3/jeito_2/pixel4-2.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Lotus/Bomb-A/pixel_3/jeito_2/pixel4-resultado.png",
+              "texto": ""
+            }
+          ]
+        ]
+      },
+      {
+        "nome": "lotus-bombA-pixel4",
+        "capa": "pixels/Lotus/Bomb-A/pixel_4/pixel5-resultado__2_.png",
+        "localização": "bomb-a",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_4/pixel5-1.png",
+            "texto": "Encoste nessa pilastra"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_4/pixel5-1.1.png",
+            "texto": "Coloque o 'e' em cima dessa contrução, como na imagem a seguir "
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_4/pixel5-2.png",
+            "texto": "Dessa forma"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_4/pixel5-resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "lotus-bombB-pixel1",
+        "capa": "pixels/Lotus/Bomb-B/pixel_1/pixel1-resultado__2_.png",
+        "localização": "bomb-b",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Lotus/Bomb-B/pixel_1/pixel1-B.gif",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-B/pixel_1/pixel1-1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-B/pixel_1/pixel1-2.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_4/pixel5-resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "lotus-bombB-pixel1",
+        "capa": "pixels/Lotus/Bomb-B/pixel_2/pixel2-resultado__2_.png",
+        "localização": "bomb-b",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Lotus/Bomb-B/pixel_2/pixel2-B.gif",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-B/pixel_2/pixel2-1.png",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-B/pixel_2/pixel2-2.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-B/pixel_2/pixel2-resultado.png",
+            "texto": ""
+          }
+        ]
+      }
+    ]
   },
   {
     "nome": "pearl",
@@ -805,6 +925,7 @@
           }
         ]
       },
+
       {}
     ]
   }

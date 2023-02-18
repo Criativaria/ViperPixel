@@ -5,12 +5,7 @@
     list-style: none;
     border: 0;
 }
-body {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 ::-webkit-scrollbar {
     width: 0.55rem;
