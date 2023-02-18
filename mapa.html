@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/resultado.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Source+Sans+Pro:wght@600&display=swap');
+    </style>
+    <title id="titulo">
+    </title>
+    <link rel="icon" type="image/x-icon" href="../../imgs/logos/logo-VP.png">
+
+</head>
+
+<body class="ascent-body">
+
+
+    <header>
+
+
+        <a href="../../index.html">
+
+            <div class="ascent-arrows">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" class="bi bi-arrow-left "
+                    viewBox="0 0 16 16" fill="#30D949">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                </svg>
+            </div>
+        </a>
+
+
+        <div class="logo-div">
+
+            <img src="../../imgs/logos/logo.png" alt="Viper Pixels" class="ascent-logo">
+        </div>
+        <div class="subTitulo-Ascent">
+            <h2 class="subTitulo" id="h2"></h2>
+        </div>
+
+    </header>
+
+    <main id="main">
+        
+
+    </main>
+
+    <footer>
+        <div>
+            <p> Viper Pixels é um site feito por diversão e estudo, criado por <a class="link" href="">Criativaria</a>
+                com <a class="link" href="../../fontes.html">diversas fontes</a> sem fins lucrativos, apenas com o
+                objetivo de
+                ajudar os jogadores de Viper. <br> </p>
+            <p>Para mais informações leia o <a class="link"
+                    href="https://www.riotgames.com/pt-br/terms-of-service-BR#id.svas12uxrnjp" target="_blank"> lenga
+                    lenga juridico da Riot. </a></p>
+        </div>
+    </footer>
+
+    </div>
+
+    <script>
+        const parametros = new URLSearchParams(window.location.search)
+        const qualMapa = parametros.get('mapa')
+        let temMeio = false
+        let temC = false
+
+        const nomeDaPag = document.getElementById('titulo');
+        const h2 = document.getElementById('h2');
+        const main = document.getElementById('main');
+
+        let bombA =
+            '<div class="primeira-coluna"> <div class = "bombA"> <div class="subTitulo-div"><h2 class="subTitulo">BOMB A</h2></div> '
+
+        let bombB =
+            ' <div class="bombB"> <div class="subTitulo-div"><h2 class="subTitulo">BOMB B</h2></div> '
+
+        let bombC = '<div class="subTitulo-div"><h2 class="subTitulo">BOMB C</h2></div> '
+
+        let meio = ' <div class="subTitulo-div"><h2 class="subTitulo">MEIO</h2></div> '
+
+
+        async function processarDados() {
+            const resposta = await fetch("/dados.json");
+
+            const dados = await resposta.json()
+
+            const acheMapa = dados.find(mapa => mapa.nome == qualMapa);
+
+
+            for (const pixel of acheMapa.lista_de_pixeis) {
+
+                const divPixel = `<div class="imgs-container">
+                                        <a href="pixel.html?pixel=${pixel.nome}&mapa=${acheMapa.nome}">
+                                        <div class="imagens-mapas">
+                                            <img src="https://ik.imagekit.io/viperpixels/${pixel["capa"]}"
+                                            alt="pixel" class="size-imagens">
+                                        </div>
+                                        </a>
+                                     </div>`
+
+                if (pixel.localização == 'bomb-a') {
+                    bombA += divPixel
+
+                } else if (pixel.localização == 'bomb-b') {
+                    bombB += divPixel
+
+                } else if (pixel.localização == 'bomb-c') {
+                    bombC += divPixel
+                    temC = true
+
+
+                } else if (pixel.localização == 'meio') {
+                    meio += divPixel
+                    temMeio = true
+                }
+
+            }
+
+            console.log(temC)
+            console.log(temMeio)
+
+
+            const fechamento = '</div>'
+
+            bombA += fechamento
+            bombB += fechamento + '</div>'
+            bombC += fechamento
+            meio += fechamento
+
+            let meio_e_c = ''
+
+            if (temC & temMeio) {
+                meio_e_c = '<div class="pixelsGerais">' + bombC + meio + '</div>'
+            } else if (temC) {
+                meio_e_c = '<div class="pixelsGerais">' + bombC + '</div>'
+            } else if (temMeio) {
+                meio_e_c = '<div class="pixelsGerais">' + meio + '</div>'
+            }
+
+
+            let todosOsPixels = bombA + bombB + meio_e_c
+
+
+
+            main.innerHTML = todosOsPixels
+            h2.innerHTML = qualMapa
+            nomeDaPag.innerHTML = qualMapa
+        }
+
+        processarDados()
+    </script>
+
+</body>
+
+</html>

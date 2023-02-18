@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 0.55rem;
+    height: 0.35rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00ff2a5e;
+}
+
+.video_fundo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    background-size: cover;
+    background: url(../imgs/backgrounds/fundosolucaopixel.png);
+    
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.531);
+    color: #f1f1f1;
+    font-family: 'Mingzat', sans-serif;
+    height: 6rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    bottom: 0;
+}
+
+.footer-div{
+    display: flex;
+    align-self: baseline;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.link {
+    color: #00ff40
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 1rem;
+    position: fixed;
+}
+
+.arrows {
+    padding-left: 7rem;
+}
+
+.logo {
+    width: 45rem;
+    opacity: 0.9;
+    margin-top: 2rem;
+}
+
+.logo-div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.subTitulo {
+    font-family: 'Mingzat', sans-serif;
+    color: #30D949;
+}
+
+.subTitulo-div {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapas {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.size-imagens {
+    width: 20rem;
+    margin: 1.7rem;
+    border: solid 1px #364839c5;
+    transition: 300ms ease-in-out;
+
+}
+
+
+.size-imagens:hover {
+    scale: 1.1;
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+
+}
+
+/*
+    font-family: 'Mingzat', sans-serif; - textos grandes
+    font-family: 'Source Sans Pro', sans-serif; - textos destaques
+*/
+
+.pai-button {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 35px;
+}
+
+.botao-modoDaltonico {
+    background-color: #5a30d9;
+    color: #e8ffeb;
+    font-family: 'Mingzat', sans-serif;
+    font-weight: bold;
+    border-bottom: solid 5px #190d3e;
+    border-right: solid 5px #190d3e;
+    height: 35px;
+    transition: all 150ms linear;
+    cursor: pointer;
+    padding-inline: 1.5rem;
+}
+
+.botao-modoDaltonico:hover {
+    background-color: #4424a1;
+    font-family: 'Mingzat', sans-serif;
+    font-weight: bold;
+    border-bottom: solid 0px #190d3e;
+    border-right: solid 0px #190d3e;
+    height: 30px;
+}
+
+
+.imgs-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-imgs {
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #e8ffeb;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.texto-imgs :hover {
+    color: rgb(255, 255, 255);
+    transition: 1ms;
+}
+
+@media (max-width: 37.5rem) {
+    .size-imagens {
+        width: 9rem;
+        margin: 1rem;
+        border: solid 1px #364839c5;
+        transition: 300ms ease-in-out;
+
+    }
+
+    .logo {
+        width: 23rem;
+        opacity: 0.9;
+        margin-top: 2.9rem;
+    }
+
+    .subTitulo {
+        font-family: 'Mingzat', sans-serif;
+        color: #30D949;
+    }
+
+    .subTitulo-div {
+
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.531);
+        color: #f1f1f1;
+        display: flex;
+        font-family: 'Mingzat', sans-serif;
+        height: 7rem;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.75rem;
+        bottom: 0;
+    }
+
+    .mapas {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0rem;
+    }
+}

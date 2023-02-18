@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../../css/pixels.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Source+Sans+Pro:wght@600&display=swap");
+    </style>
+    <title>Viper Pixels</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logos/logo-VP.png" />
+  </head>
+
+  <body>
+    <div>
+      <header>
+        <a href="mapa.html?mapa=" id="seta">
+          <div class="arrows">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              class="bi bi-arrow-left"
+              viewBox="0 0 16 16"
+              fill="#30D949"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+              />
+            </svg>
+          </div>
+        </a>
+      </header>
+
+      <main id="main"></main>
+    </div>
+
+    <script>
+      const parametros = new URLSearchParams(window.location.search);
+      const qualMapa = parametros.get("mapa");
+      const qualPixel = parametros.get("pixel");
+      const seta = document.getElementById("seta");
+      seta.href += qualMapa;
+
+      let textoPixel = '<div class="coluna">';
+
+      const main = document.getElementById("main");
+
+      async function processarPixels() {
+        const resposta = await fetch("/dados.json");
+
+        const dados = await resposta.json();
+        const acheMapa = dados.find((mapa) => mapa.nome == qualMapa);
+        const achePixel = acheMapa.lista_de_pixeis.find(
+          (pixel) => pixel.nome == qualPixel
+        );
+
+        achePixel.passo_a_passo.forEach((imagem, indice) => {
+          if (Array.isArray(imagem)) {
+            textoPixel += `<p class="opcoes">Opção ${indice + 1}</p>`;
+            for (etapa of imagem) {
+              const divPixelImg = ` <div class="img-texto">
+                        <div class="subTitulo-div">
+                         <h2 class="subTitulo">${etapa.texto}</h2>
+                     </div>
+
+                        <div class="imgs-container-pixel">
+                            <img src="https://ik.imagekit.io/viperpixels/${etapa["link"]}" alt="pixel_img" class="size-imagens">
+                        </div>
+                    </div>`;
+              textoPixel += divPixelImg;
+            }
+          } else {
+            const divPixelImg = `<div class="img-texto">
+                        <div class="subTitulo-div">
+                         <h2 class="subTitulo">${imagem.texto}</h2>
+                     </div>
+
+                        <div class="imgs-container-pixel">
+                            <img src="https://ik.imagekit.io/viperpixels/${imagem["link"]}" alt="pixel_img" class="size-imagens">
+                        </div>
+                    </div>`;
+
+            textoPixel += divPixelImg;
+          }
+        });
+
+        const fechamento = "</div>";
+
+        textoPixel += fechamento;
+
+        main.innerHTML = textoPixel;
+      }
+
+      processarPixels();
+    </script>
+  </body>
+</html>

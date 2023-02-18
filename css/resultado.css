@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+
+
+.ascent-body {
+    background-color: black;
+    background-image: url("../imgs/backgrounds/ascent-escolha.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+::-webkit-scrollbar {
+    width: 0.55rem;
+    height: 0.35rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00ff2a5e;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.531);
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mingzat', sans-serif;
+    height: 6rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.link {
+    color: #00ff40
+}
+
+.ascent-arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-left: 7rem;
+    padding-top: 1rem;
+    position: fixed;
+}
+
+.ascent-logo {
+    width: 45rem;
+    opacity: 0.9;
+}
+
+.logo-div {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.subTitulo {
+    font-family: 'Mingzat', sans-serif;
+    color: #30D949;
+    font-size: 1cm;
+    text-transform: uppercase;
+}
+
+.subTitulo-div {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+
+.subTitulo-Ascent {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bombA {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+.bombB {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+.imagens-bombB {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.pixelsGerais {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 5rem;
+}
+
+.size-imagens {
+    width: 10rem;
+    height: auto;
+    margin: 1rem;
+    border: solid 1px #000000c5;
+    transition: 300ms ease-in-out;
+
+}
+
+
+.size-imagens:hover {
+    scale: 1.3;
+    background-color: rgb(0, 0, 0);
+}
+
+/*
+    font-family: 'Mingzat', sans-serif; - textos grandes
+    font-family: 'Source Sans Pro', sans-serif; - textos destaques
+*/
+
+header {
+    position: absolute;
+    color: #f1f1f1;
+    width: 99%;
+    z-index: 100;
+}
+
+main {
+    padding-top: 18rem;
+}
+
+/* .imgs-container{
+    display: flex;
+    flex-direction: column;
+}  */
+
+.primeira-coluna {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+}
+
+
+@media (max-width: 37.5rem) {
+
+
+
+    .logo-div {
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+
+    .ascent-arrows {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        padding-left: 1rem;
+        color: #30D949;
+        padding-top: 2rem;
+    }
+
+    .size-imagens {
+        width: 15rem;
+        border: solid 1px #364839c5;
+        transition: 300ms ease-in-out;
+    }
+
+    .ascent-logo {
+        width: 20rem;
+        opacity: 0.9;
+    }
+
+    .subTitulo-Ascent {
+        font-family: 'Mingzat', sans-serif;
+        color: #30D949;
+        font-size: 1.5rem;
+    }
+
+    .subTitulo-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+    }
+
+    .primeira-coluna {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 0rem;
+
+    }
+
+    .bombA {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        align-content: flex-start;
+        align-items: center;
+    }
+
+    .bombB {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        align-content: flex-start;
+        align-items: center;
+    }
+
+
+
+
+    .pixelsGerais {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        align-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.531);
+        color: #f1f1f1;
+        display: flex;
+        font-family: 'Mingzat', sans-serif;
+        height: 15rem;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" id="batata" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Source+Sans+Pro:wght@600&display=swap");
+    </style>
+    <title>Viper Pixels</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logos/logo-VP.png" />
+  </head>
+
+  <!-- falar com a lissa e o folk sobre o site não estar aparecendo no link 
+      gif estão demorando dms pra carregar
+      os textos da ascent - ver se fica ou não. Apenas os mais importantes? -->
+
+  <body>
+    <header>
+      <!-- <div class="pai-button">
+
+                <button class="botao-modoDaltonico">dinheiro</button>
+
+            </div> -->
+
+      <picture class="logo-div">
+        <img src="imgs/logos/logo.png" alt="viper pixels" class="logo" />
+      </picture>
+
+      <div class="subTitulo-div">
+        <h2 class="subTitulo">Escolha um mapa</h2>
+      </div>
+    </header>
+    <main>
+      <div class="mapas" id="mapas"></div>
+
+      <video autoplay loop class="video_fundo">
+        <source
+          src="imgs/backgrounds/backgroundvideoviperpixels.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </main>
+
+    <div class="footer-div">
+      <footer>
+        <div>
+          <p>
+            Viper Pixels é um site feito por diversão e estudo, feito por
+            <a class="link" href="">Criativaria</a> com
+            <a class="link" href="fontes.html"> diversas fontes</a> sem fins
+            lucrativos, apenas com o objetivo de ajudar os jogadores de Viper.
+            <br />
+          </p>
+          <p>
+            Para mais informações leia o
+            <a
+              class="link"
+              href="https://www.riotgames.com/pt-br/terms-of-service-BR#id.svas12uxrnjp"
+              target="_blank"
+            >
+              lenga lenga juridico da Riot.
+            </a>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- <script src="js/daltonismo.js"></script> -->
+    <script>
+      const mapas = document.getElementById("mapas");
+      let todasDivs = "";
+
+      async function processarDados() {
+        const resposta = await fetch("/dados.json");
+
+        const dados = await resposta.json();
+
+        for (const mapa of dados) {
+          todasDivs += `<div class="imgs-container">
+                                    <a href="mapa.html?mapa=${mapa.nome}">
+                                        <div class="imagens-mapas">
+                                    <img src="https://ik.imagekit.io/viperpixels/${mapa["link_capa"]}" alt="${mapa.nome}" class="size-imagens">
+                                        </div>
+                                    </a>
+                                </div>`;
+        }
+
+        mapas.innerHTML = todasDivs;
+      }
+      processarDados();
+    </script>
+  </body>
+</html>
