@@ -463,7 +463,36 @@
   {
     "nome": "haven",
     "link_capa": "pixels/Haven/telaDeCarregamento__2_.png",
-    "lista_de_pixeis": []
+    "lista_de_pixeis": [
+      {
+        "nome": "lotus-bombA-pixel1",
+        "capa": "pixels/Lotus/Bomb-A/pixel_1/pixel1-resultado__2_.png",
+        "localização": "bomb-a",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-lotus.gif",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-1.1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-2.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {}
+    ]
   },
   {
     "nome": "icebox",
@@ -619,7 +648,7 @@
         ]
       },
       {
-        "nome": "lotus-bombB-pixel1",
+        "nome": "lotus-bombB-pixel2",
         "capa": "pixels/Lotus/Bomb-B/pixel_2/pixel2-resultado__2_.png",
         "localização": "bomb-b",
         "passo_a_passo": [
@@ -637,6 +666,56 @@
           },
           {
             "link": "pixels/Lotus/Bomb-B/pixel_2/pixel2-resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "lotus-bombC-pixel1",
+        "capa": "pixels/Lotus/Bomb-c/pixel_1/pixel1-resultado__2_.png",
+        "localização": "bomb-c",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_1/pixel1-1.png",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_1/pixel1-1.1.png",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_1/pixel1-2.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_1/pixel1-resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "lotus-bombC-pixel2",
+        "capa": "pixels/Lotus/Bomb-c/pixel_2/pixel2-resultado__2_.png",
+        "localização": "bomb-c",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_2/pixel2-c.gif",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_2/pixel2-1.png",
+            "texto": "MUDAR"
+          },
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_2/pixel2-1.1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_2/pixel2-2.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Lotus/Bomb-c/pixel_2/pixel2-resultado.png",
             "texto": ""
           }
         ]
