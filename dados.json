@@ -462,36 +462,338 @@
   },
   {
     "nome": "haven",
-    "link_capa": "pixels/Haven/telaDeCarregamento__2_.png",
+    "link_capa": "pixels/Haven/telaDeCarregamento.png",
     "lista_de_pixeis": [
       {
-        "nome": "lotus-bombA-pixel1",
-        "capa": "pixels/Lotus/Bomb-A/pixel_1/pixel1-resultado__2_.png",
+        "nome": "haven-bombA-pixel1",
+        "capa": "pixels/Haven/bomb_A/pixel_1/resultado.png?tr=w-700,h-700,cm-extract",
         "localização": "bomb-a",
         "passo_a_passo": [
           {
-            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-lotus.gif",
-            "texto": "MUDAR"
-          },
-          {
-            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-1.png",
+            "link": "pixels/Haven/bomb_A/pixel_1/pixel1A-haven.gif",
             "texto": ""
           },
           {
-            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-1.1.png",
-            "texto": ""
+            "link": "pixels/Haven/bomb_A/pixel_1/local.png",
+            "texto": "Do lado desse carrinho de mão"
           },
           {
-            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-2.png",
-            "texto": ""
+            "link": "pixels/Haven/bomb_A/pixel_1/mira.png",
+            "texto": "mire na segunda lampada"
           },
           {
-            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-resultado.png",
+            "link": "pixels/Haven/bomb_A/pixel_1/resultado.png",
             "texto": ""
           }
         ]
       },
-      {}
+      {
+        "nome": "haven-bombA-pixel2",
+        "capa": "pixels/Haven/bomb_A/pixel_2/jeito_1/resultado.png?tr=w-500,h-500,cm-extract",
+        "localização": "bomb-a",
+        "passo_a_passo": [
+          [
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_1/pixel2A___Feito_com_o_Clipchamp.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_1/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_1/mira.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_1/resultado.png",
+              "texto": ""
+            }
+          ],
+          [
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_2/pixel2A-haven.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_2/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_2/mira.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_2/resultado.png",
+              "texto": ""
+            }
+          ]
+        ]
+      },
+      {
+        "nome": "haven-bombA-pixel3",
+        "capa": "pixels/Haven/bomb_A/pixel_3/jeito_1/resultado.png?tr=w-700,h-700,cm-extract",
+        "localização": "bomb-a",
+        "passo_a_passo": [
+          [
+            {
+              "link": "pixels/Haven/bomb_A/pixel_3/jeito_1/pixel2A-haven.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_2/jeito_1/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_3/jeito_1/mira.png",
+              "texto": "mire na ponta do telhado"
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_3/jeito_1/resultado.png",
+              "texto": ""
+            }
+          ],
+          [
+            {
+              "link": "pixels/Haven/bomb_A/pixel_3/jeito_2/pixel3A-haven.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_3/jeito_2/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_3/jeito_2/mira.png",
+              "texto": "mire na ponta do telhado"
+            },
+            {
+              "link": "pixels/Haven/bomb_A/pixel_3/jeito_2/resultado.png",
+              "texto": ""
+            }
+          ]
+        ]
+      },
+      {
+        "nome": "haven-bombA-pixel4",
+        "capa": "pixels/Haven/bomb_A/pixel_4/resultado.png?tr=w-700,h-700,cm-extract",
+        "localização": "bomb-a",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Haven/bomb_A/pixel_4/pixel3A-haven.gif",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_A/pixel_4/local.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_A/pixel_4/mira.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_A/pixel_4/resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "haven-bombB-pixel1",
+        "capa": "pixels/Haven/bomb_B/pixel_1/jeito_1/resultado.png?tr=w-700,h-700,cm-extract",
+        "localização": "bomb-b",
+        "passo_a_passo": [
+          [
+            {
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_1/pixel1B-haven___Feito_com_o_Clipchamp.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_1/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_1/mira.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_1/resultado.png",
+              "texto": ""
+            }
+          ],
+          [
+            {
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_2/pixel1B.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_2/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_2/mira.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_2/resultado.png",
+              "texto": ""
+            }
+          ]
+        ]
+      },
+      {
+        "nome": "haven-bombB-pixel2",
+        "capa": "pixels/Haven/bomb_B/pixel_2/jeito_1/reusltado.png?tr=w-700,h-700,cm-extract",
+        "localização": "bomb-b",
+        "passo_a_passo": [
+          [
+            {
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_1/pixel2B-haven___Feito_com_o_Clipchamp.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676833715261",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_1/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_1/mira.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_1/reusltado.png",
+              "texto": ""
+            }
+          ],
+          [
+            {
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_2/pixel2B.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_2/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_2/mira.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_2/resultado.png",
+              "texto": ""
+            }
+          ]
+        ]
+      },
+      {
+        "nome": "haven-bombB-pixel3",
+        "capa": "pixels/Haven/bomb_B/pixel_3/resultado.png?tr=w-700,h-700,cm-extract",
+        "localização": "bomb-b",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Haven/bomb_B/pixel_3/pixel3B.gif",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_B/pixel_3/local.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_B/pixel_3/mira.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_B/pixel_3/resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "haven-bombB-pixel4",
+        "capa": "pixels/Haven/bomb_B/pixel_4/resultado.png?tr=w-700,h-700,cm-extract",
+        "localização": "bomb-b",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Haven/bomb_B/pixel_4/pixel4B.gif",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_B/pixel_4/local.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_B/pixel_4/mira.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_B/pixel_4/resultado.png",
+            "texto": ""
+          }
+        ]
+      },
+      {
+        "nome": "haven-bombC-pixel1",
+        "capa": "pixels/Haven/bomb_C/pixel_1/jeito_1/resultado.png?tr=w-700,h-700,cm-extract",
+        "localização": "bomb-c",
+        "passo_a_passo": [
+          [
+            {
+              "link": "pixels/Haven/bomb_C/pixel_1/jeito_1/pixel1C-haven.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_C/pixel_1/jeito_1/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_C/pixel_1/jeito_1/mira.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_C/pixel_1/jeito_1/resultado.png",
+              "texto": ""
+            }
+          ],
+          [
+            {
+              "link": "pixels/Haven/bomb_C/pixel_1/jeito_2/pixel1C-haven___Feito_com_o_Clipchamp.gif",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_C/pixel_1/jeito_2/local.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_C/pixel_1/jeito_2/mira.png",
+              "texto": ""
+            },
+            {
+              "link": "pixels/Haven/bomb_C/pixel_1/jeito_2/resultado.png",
+              "texto": ""
+            }
+          ]
+        ]
+      },
+      {
+        "nome": "haven-bombc-pixel2",
+        "capa": "pixels/Haven/bomb_C/pixel_2/resultado.png?tr=w-700,h-700,cm-extract",
+        "localização": "bomb-c",
+        "passo_a_passo": [
+          {
+            "link": "pixels/Haven/bomb_C/pixel_2/pixel2C___Feito_com_o_Clipchamp.gif",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_C/pixel_2/local.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_C/pixel_2/mira.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Haven/bomb_C/pixel_2/resultado.png",
+            "texto": ""
+          }
+        ]
+      }
     ]
   },
   {
