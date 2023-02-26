@@ -94,6 +94,7 @@ footer {
 .bombA {
     display: flex;
     justify-content: flex-start;
+    width: 50%;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: baseline;
