@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "Viper Pixels App",
+  "name": "Viper Pixels",
   "short_name": "VP",
   "start_url": ".",
   "id": "/?source=pwa",
@@ -11,10 +11,28 @@
   "description": "Viper Pixels é um site feito por diversão e estudo, feito por Criativaria com diversas fontes, sem fins lucrativos, apenas com o objetivo de ajudar os jogadores de Viper.",
   "icons": [
     {
-      "src": "imgs/logos/logo-VP.png",
-      "sizes": "965x1035",
+      "src": "icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
