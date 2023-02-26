@@ -94,7 +94,6 @@ footer {
 .bombA {
     display: flex;
     justify-content: flex-start;
-    width: 50%;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: baseline;
@@ -199,13 +198,12 @@ main {
         opacity: 0.9;
     }
 
-    .subTitulo-Ascent {
+    .subTitulo{
         font-family: 'Mingzat', sans-serif;
         color: #30D949;
-        font-size: 1.5rem;
     }
 
-    .subTitulo-div {
+    .subTitulo-div{
         width: 100%;
         display: flex;
         align-items: center;

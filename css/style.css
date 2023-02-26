@@ -193,18 +193,17 @@ footer {
     .subTitulo {
         font-family: 'Mingzat', sans-serif;
         color: #30D949;
+        font-size: 1rem;
     }
 
     .subTitulo-div {
-
-        font-size: 1rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     footer {
-        position: absolute;
+        position: relative;
         background-color: rgba(0, 0, 0, 0.531);
         color: #f1f1f1;
         display: flex;
@@ -217,6 +216,7 @@ footer {
         font-size: 0.75rem;
         bottom: 0;
     }
+
 
     .mapas {
         flex-wrap: wrap;
