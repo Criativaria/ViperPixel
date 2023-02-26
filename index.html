@@ -10,11 +10,10 @@
     </style>
     <title>Viper Pixels</title>
     <link rel="icon" type="image/x-icon" href="imgs/logos/logo-VP.png" />
+    <link rel="manifest" href="manifest.json" />
   </head>
 
-  <!-- falar com a lissa e o folk sobre o site não estar aparecendo no link 
-      gif estão demorando dms pra carregar
-      os textos da ascent - ver se fica ou não. Apenas os mais importantes? -->
+  <!-- tela de ajuda e dicas -->
 
   <body>
     <header>
@@ -71,6 +70,10 @@
 
     <!-- <script src="js/daltonismo.js"></script> -->
     <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/js/service-worker.js");
+      }
+
       const mapas = document.getElementById("mapas");
       let todasDivs = "";
 
