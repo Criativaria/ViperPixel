@@ -80,7 +80,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/ascent/bomb-a/pixel-3/venenoCeu/venenoCeu-2.webp",
+            "link": "pixels/ascent/bomb-a/pixel-3/venenoCeu/venenoCeu-2.webp?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -104,7 +104,7 @@
               "texto": ""
             },
             {
-              "link": "pixels/ascent/bomb-a/pixel-4/plantGerador/jeito1/plantGerador-2.png",
+              "link": "pixels/ascent/bomb-a/pixel-4/plantGerador/jeito1/plantGerador-2.png?tr=w-700,h-450,cm-extract",
               "texto": ""
             },
             {
@@ -126,7 +126,7 @@
               "texto": ""
             },
             {
-              "link": "pixels/ascent/bomb-a/pixel-4/plantGerador/jeito2/plantGerador-2.png",
+              "link": "pixels/ascent/bomb-a/pixel-4/plantGerador/jeito2/plantGerador-2.png?tr=w-700,h-450,cm-extract",
               "texto": ""
             },
             {
@@ -172,7 +172,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/ascent/bomb-a/pixel-5/smokeCaixaVerde/smokeCaixaVerde-2.png",
+            "link": "pixels/ascent/bomb-a/pixel-5/smokeCaixaVerde/smokeCaixaVerde-2.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -186,50 +186,26 @@
         "capa": "pixels/ascent/bomb-a/pixel-6/smokeOneway/smokeOneway.webp",
         "localização": "bomb-a",
         "passo_a_passo": [
-          [
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneWay-jeito1.gif",
-              "texto": ""
-            },
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneway-1.png",
-              "texto": ""
-            },
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneway-1.1.png",
-              "texto": ""
-            },
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneway-2.png",
-              "texto": ""
-            },
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneway-2.webp",
-              "texto": ""
-            }
-          ],
-          [
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_2/smokeOneWay-jeito2.gif",
-              "texto": ""
-            },
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_2/smokeOneway-1.webp",
-              "texto": ""
-            },
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_2/smokeOneway-1.1.png",
-              "texto": ""
-            },
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_2/smokeOneway-2.webp",
-              "texto": ""
-            },
-            {
-              "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/smokeOneway.webp",
-              "texto": ""
-            }
-          ]
+          {
+            "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneWay-jeito1.gif",
+            "texto": ""
+          },
+          {
+            "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneway-1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneway-1.1.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneway-2.webp",
+            "texto": "Pula e joga ao mesmo tempo"
+          },
+          {
+            "link": "pixels/ascent/bomb-a/pixel-6/smokeOneway/jeito_1/smokeOneway-2.png",
+            "texto": ""
+          }
         ]
       },
       {
@@ -246,7 +222,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/ascent/bomb-b/pixel-1/escadaCtAtaque/escadaCtAtaque-2.png",
+            "link": "pixels/ascent/bomb-b/pixel-1/escadaCtAtaque/escadaCtAtaque-2.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -274,7 +250,7 @@
           },
           {
             "link": "pixels/ascent/bomb-b/pixel-2/pixelAtaqueCt/pixelAtaqueCtB-miraali.png",
-            "texto": ""
+            "texto": "anda e joga"
           },
           {
             "link": "pixels/ascent/bomb-b/pixel-2/pixelAtaqueCt/pixelAtaqueCtB-resultado.png",
@@ -347,7 +323,7 @@
             },
             {
               "link": "pixels/ascent/bomb-b/pixel-4/plantPadrao/jeito_2/pixel.png",
-              "texto": ""
+              "texto": "Linha a baixo do 100 na junção dos tijolos com a calha"
             },
             {
               "link": "pixels/ascent/bomb-b/pixel-4/plantPadrao/jeito_2/resultadoSemPular.png",
@@ -388,8 +364,8 @@
             "texto": ""
           },
           {
-            "link": "pixels/ascent/bomb-b/pixel-5/venenoMercado/venenoMercado-2.png",
-            "texto": ""
+            "link": "pixels/ascent/bomb-b/pixel-5/venenoMercado/venenoMercado-2.png?tr=w-700,h-450,cm-extract",
+            "texto": "Olho da girafa"
           },
           {
             "link": "pixels/ascent/bomb-b/pixel-5/venenoMercado/venenoMercado-resultado.png",
@@ -412,7 +388,7 @@
           },
           {
             "link": "pixels/ascent/pixelsgerais/pixel-1/smoke_onway_jardim/smoke_onway_jardim-miraali.png",
-            "texto": ""
+            "texto": "Pula e joga ao mesmo tempo"
           },
           {
             "link": "pixels/ascent/pixelsgerais/pixel-1/smoke_onway_jardim/smoke_onway_jardim-resultado.png",
@@ -478,7 +454,7 @@
             "texto": "Do lado desse carrinho de mão"
           },
           {
-            "link": "pixels/Haven/bomb_A/pixel_1/mira.png",
+            "link": "pixels/Haven/bomb_A/pixel_1/mira.png?tr=w-700,h-450,cm-extract",
             "texto": "mire na segunda lampada"
           },
           {
@@ -545,8 +521,8 @@
               "texto": ""
             },
             {
-              "link": "pixels/Haven/bomb_A/pixel_3/jeito_1/mira.png",
-              "texto": "mire na ponta do telhado"
+              "link": "",
+              "texto": ""
             },
             {
               "link": "pixels/Haven/bomb_A/pixel_3/jeito_1/resultado.png",
@@ -611,7 +587,7 @@
               "texto": ""
             },
             {
-              "link": "pixels/Haven/bomb_B/pixel_1/jeito_1/mira.png",
+              "link": "pixels/Haven/bomb_B/pixel_1/jeito_1/mira.png?tr=w-700,h-450,cm-extract",
               "texto": ""
             },
             {
@@ -646,7 +622,7 @@
         "passo_a_passo": [
           [
             {
-              "link": "pixels/Haven/bomb_B/pixel_2/jeito_1/pixel2B-haven___Feito_com_o_Clipchamp.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676833715261",
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_1/pixel2B-haven___Feito_com_o_Clipchamp.gif?ik-sdk-version=javascript-1.4.3&",
               "texto": ""
             },
             {
@@ -654,7 +630,7 @@
               "texto": ""
             },
             {
-              "link": "pixels/Haven/bomb_B/pixel_2/jeito_1/mira.png",
+              "link": "pixels/Haven/bomb_B/pixel_2/jeito_1/mira.png?tr=w-700,h-450,cm-extract",
               "texto": ""
             },
             {
@@ -762,7 +738,7 @@
             },
             {
               "link": "pixels/Haven/bomb_C/pixel_1/jeito_2/mira.png",
-              "texto": ""
+              "texto": "Apoie o E no 1º degrau"
             },
             {
               "link": "pixels/Haven/bomb_C/pixel_1/jeito_2/resultado.png",
@@ -806,7 +782,7 @@
         "localização": "bomb-a",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_A/pixel_1/pixel1_A.gif",
             "texto": ""
           },
           {
@@ -829,10 +805,6 @@
         "localização": "bomb-a",
         "passo_a_passo": [
           {
-            "link": "",
-            "texto": ""
-          },
-          {
             "link": "pixels/Icebox/bomb_A/pixel_2/mira.png",
             "texto": ""
           },
@@ -848,7 +820,7 @@
         "localização": "bomb-a",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_A/pixel_3/pixel3_A.gif",
             "texto": ""
           },
           {
@@ -856,7 +828,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Icebox/bomb_A/pixel_3/mira.png",
+            "link": "pixels/Icebox/bomb_A/pixel_3/mira.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -871,7 +843,7 @@
         "localização": "bomb-a",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_A/pixel_4/pixel4_A.gif",
             "texto": ""
           },
           {
@@ -894,7 +866,7 @@
         "localização": "bomb-a",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_A/pixel_5/pixel5_A.gif",
             "texto": ""
           },
           {
@@ -916,42 +888,22 @@
         "capa": "pixels/Icebox/bomb_A/pixel_6/jeito_1/resultado.png?tr=w-700,h-700,cm-extract",
         "localização": "bomb-a",
         "passo_a_passo": [
-          [
-            {
-              "link": "",
-              "texto": ""
-            },
-            {
-              "link": "pixels/Icebox/bomb_A/pixel_6/jeito_1/local.png",
-              "texto": ""
-            },
-            {
-              "link": "pixels/Icebox/bomb_A/pixel_6/jeito_1/mira.png",
-              "texto": ""
-            },
-            {
-              "link": "pixels/Icebox/bomb_A/pixel_6/jeito_1/resultado.png",
-              "texto": ""
-            }
-          ],
-          [
-            {
-              "link": "",
-              "texto": ""
-            },
-            {
-              "link": "pixels/Icebox/bomb_A/pixel_6/jeito_2/local.png",
-              "texto": ""
-            },
-            {
-              "link": "pixels/Icebox/bomb_A/pixel_6/jeito_2/mira.png",
-              "texto": ""
-            },
-            {
-              "link": "pixels/Icebox/bomb_A/pixel_6/jeito_2/resultado.png",
-              "texto": ""
-            }
-          ]
+          {
+            "link": "pixels/Icebox/bomb_A/pixel_6/pixel6_A.gif",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Icebox/bomb_A/pixel_6/jeito_2/local.png",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Icebox/bomb_A/pixel_6/mira.png?tr=w-700,h-450,cm-extract",
+            "texto": ""
+          },
+          {
+            "link": "pixels/Icebox/bomb_A/pixel_6/jeito_2/resultado.png",
+            "texto": ""
+          }
         ]
       },
       {
@@ -960,7 +912,7 @@
         "localização": "bomb-b",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_B/pixel_1/pixel1_B.gif?",
             "texto": ""
           },
           {
@@ -983,7 +935,7 @@
         "localização": "bomb-b",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_B/pixel_2/pixel2_B.gif?tr=w-700,h-700,cm-extract",
             "texto": ""
           },
           {
@@ -1010,7 +962,7 @@
         "localização": "bomb-b",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_B/pixel_3/pixel3_B.gif?",
             "texto": ""
           },
           {
@@ -1033,10 +985,6 @@
         "localização": "bomb-b",
         "passo_a_passo": [
           {
-            "link": "",
-            "texto": ""
-          },
-          {
             "link": "pixels/Icebox/bomb_B/pixel_4/mira.png",
             "texto": ""
           },
@@ -1052,7 +1000,7 @@
         "localização": "bomb-b",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_B/pixel_5/pixel5_B.gif?",
             "texto": ""
           },
           {
@@ -1076,7 +1024,7 @@
         "passo_a_passo": [
           [
             {
-              "link": "",
+              "link": "pixels/Icebox/bomb_B/pixel_6/jeito_1/pixel6_jeito1_B.gif?",
               "texto": ""
             },
             {
@@ -1094,7 +1042,7 @@
           ],
           [
             {
-              "link": "",
+              "link": "pixels/Icebox/bomb_B/pixel_6/jeito_2/pixel6_jeito2_B.gif?",
               "texto": ""
             },
             {
@@ -1112,7 +1060,7 @@
           ],
           [
             {
-              "link": "",
+              "link": "pixels/Icebox/bomb_B/pixel_6/jeito_3/pixel7_jeito3_B.gif?",
               "texto": ""
             },
             {
@@ -1120,7 +1068,7 @@
               "texto": ""
             },
             {
-              "link": "pixels/Icebox/bomb_B/pixel_6/jeito_3/mira.png",
+              "link": "pixels/Icebox/bomb_B/pixel_6/jeito_3/mira.png?tr=w-700,h-450,cm-extract",
               "texto": ""
             },
             {
@@ -1180,7 +1128,7 @@
         "localização": "bomb-b",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/bomb_B/pixel_7/pixel7_B.gif?",
             "texto": ""
           },
           {
@@ -1203,7 +1151,7 @@
         "localização": "meio",
         "passo_a_passo": [
           {
-            "link": "",
+            "link": "pixels/Icebox/meio/pixel_1/pixel1_meio.gif?",
             "texto": ""
           },
           {
@@ -1225,10 +1173,6 @@
         "capa": "pixels/Icebox/meio/pixel_2/resultado3.png",
         "localização": "meio",
         "passo_a_passo": [
-          {
-            "link": "",
-            "texto": ""
-          },
           {
             "link": "pixels/Icebox/meio/pixel_2/mira.png",
             "texto": ""
@@ -1264,7 +1208,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-2.png",
+            "link": "pixels/Lotus/Bomb-A/pixel_1/pixel1-2.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -1382,7 +1326,7 @@
           },
           {
             "link": "pixels/Lotus/Bomb-B/pixel_1/pixel1-2.png",
-            "texto": ""
+            "texto": "alinhe a ponta da barra de veneno na pétala lotus"
           },
           {
             "link": "pixels/Lotus/Bomb-A/pixel_4/pixel5-resultado.png",
@@ -1405,7 +1349,7 @@
           },
           {
             "link": "pixels/Lotus/Bomb-B/pixel_2/pixel2-2.png",
-            "texto": ""
+            "texto": "alinhe o 3º risco da barra de veneno com a parede"
           },
           {
             "link": "pixels/Lotus/Bomb-B/pixel_2/pixel2-resultado.png",
@@ -1455,7 +1399,7 @@
           },
           {
             "link": "pixels/Lotus/Bomb-c/pixel_2/pixel2-2.png",
-            "texto": ""
+            "texto": "A mira acima do mouse"
           },
           {
             "link": "pixels/Lotus/Bomb-c/pixel_2/pixel2-resultado.png",
@@ -1488,7 +1432,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_A/pixel_1/pixel.png",
+            "link": "pixels/Split/Bomb_A/pixel_1/mira.png",
             "texto": ""
           },
           {
@@ -1511,7 +1455,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_A/pixel_2/pixel.png",
+            "link": "pixels/Split/Bomb_A/pixel_2/mira.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -1538,7 +1482,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_A/pixel_3/pixel.png",
+            "link": "pixels/Split/Bomb_A/pixel_3/mira.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -1561,8 +1505,8 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_A/pixel_4/pixel.png",
-            "texto": ""
+            "link": "pixels/Split/Bomb_A/pixel_4/mira.png?tr=w-700,h-450,cm-extract",
+            "texto": "Mire na ponta do pinheiro"
           },
           {
             "link": "pixels/Split/Bomb_A/pixel_4/resultado.png",
@@ -1584,7 +1528,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_A/pixel_5/pixel.png",
+            "link": "pixels/Split/Bomb_A/pixel_5/mira.png",
             "texto": ""
           },
           {
@@ -1596,7 +1540,7 @@
       {
         "nome": "split-bombA-pixel6",
         "capa": "pixels/Split/Bomb_A/pixel_6/resultado__2_.png",
-        "localização": "bomb-b",
+        "localização": "bomb-a",
         "passo_a_passo": [
           {
             "link": "pixels/Split/Bomb_A/pixel_6/pixel6A-split.gif",
@@ -1607,7 +1551,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_A/pixel_6/pixel.png",
+            "link": "pixels/Split/Bomb_A/pixel_6/mira.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -1630,7 +1574,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_A/pixel_7/pixel.png",
+            "link": "pixels/Split/Bomb_A/pixel_7/mira.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -1657,7 +1601,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_B/pixel_1/pixel.png",
+            "link": "pixels/Split/Bomb_B/pixel_1/mira.png?tr=w-700,h-450,cm-extract",
             "texto": ""
           },
           {
@@ -1684,7 +1628,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_B/pixel_2/pixel.png",
+            "link": "pixels/Split/Bomb_B/pixel_2/mira.png",
             "texto": ""
           },
           {
@@ -1711,7 +1655,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_B/pixel_3/pixel.png",
+            "link": "pixels/Split/Bomb_B/pixel_3/mira.png",
             "texto": ""
           },
           {
@@ -1738,7 +1682,7 @@
             "texto": ""
           },
           {
-            "link": "pixels/Split/Bomb_B/pixel_4/pixel.png",
+            "link": "pixels/Split/Bomb_B/pixel_4/mira.png",
             "texto": ""
           },
           {
